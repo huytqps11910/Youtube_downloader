@@ -17,7 +17,6 @@ app.get("/download-song", (req, res) => {
     var URL = req.query.URL;
     if(URL.length <= 0) {
         res.redirect("https://huytqps11910.github.io/Youtube_downloader/");
-        return;
     }
     res.header('Content-Disposition', 'attachment; filename="video.mp4"');
     ytdl(URL, { format: 'mp4' }).pipe(res);
