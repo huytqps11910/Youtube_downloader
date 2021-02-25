@@ -13,7 +13,12 @@ mp3Btn.addEventListener("click", () => {
 })
 
 const sendURLMP4 = (URL) => {
-    window.location.href = `http://localhost:3000/download-video?URL=${URL}`;
+    if(URL.length <= 0) {
+        alert("Ban chua nhap dia chi");
+    }
+    else {
+        window.location.href = `http://localhost:3000/download-video?URL=${URL}`;
+    }
 }
 
 const sendURLMP3 = (URL) => {
