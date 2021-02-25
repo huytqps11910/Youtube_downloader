@@ -50,6 +50,7 @@ body {
 
 .btn-red {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    cursor: not-allowed;
 }
 .btn-blue {
     background: radial-gradient(circle, rgba(63,251,239,1) 0%, rgba(70,92,252,1) 100%);
