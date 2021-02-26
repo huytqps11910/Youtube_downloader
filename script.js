@@ -17,7 +17,7 @@ const sendURLMP4 = (URL) => {
         alert("Ban chua nhap dia chi");
     }
     else {
-        window.location.href = `https://huytqps11910.github.io/Youtube_downloader/download-video?URL=${URL}`;
+        window.location.href = `http://localhost:3000/download-video?URL=${URL}`;
     }
 }
 
