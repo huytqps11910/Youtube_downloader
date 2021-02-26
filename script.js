@@ -17,10 +17,10 @@ const sendURLMP4 = (URL) => {
         alert("Ban chua nhap dia chi");
     }
     else {
-        window.location.href = `/download-video?URL=${URL}`;
+        window.location.href = `https://huytqps11910.github.io/Youtube_downloader/download-video?URL=${URL}`;
     }
 }
 
 const sendURLMP3 = (URL) => {
-    window.location.href = `/download-song?URL=${URL}`;
+    window.location.href = `https://huytqps11910.github.io/Youtube_downloader/download-song?URL=${URL}`;
 }
